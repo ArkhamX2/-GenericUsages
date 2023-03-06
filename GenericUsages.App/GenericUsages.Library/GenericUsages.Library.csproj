@@ -47,6 +47,8 @@
     <Compile Include="GenericContainer\GenericStack.cs" />
     <Compile Include="GenericContainer\Node.cs" />
     <Compile Include="GenericSort\GenericSort.cs" />
+    <Compile Include="GenericSort\Student.cs" />
+    <Compile Include="GenericSort\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
