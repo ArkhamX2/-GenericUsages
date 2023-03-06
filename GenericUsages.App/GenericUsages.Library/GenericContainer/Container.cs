@@ -9,9 +9,9 @@ namespace GenericUsages.Library.GenericContainer
 {
     public class Container<T> : IEnumerable<T>
     {
-        private Node<T> _head;
-        private Node<T> _tail;
-        private int _count;
+        private protected Node<T> _head;
+        private protected Node<T> _tail;
+        private protected int _count;
 
         public int Count{ get { return _count; } }
         public bool IsEmpty { get { return Count == 0; } }
