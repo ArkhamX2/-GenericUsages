@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GenericUsages.Library.GenericContainer
 {
-    public class Container<T> : IEnumerable<T>
+    public abstract class Container<T> : IEnumerable<T>
     {
         private protected Node<T> _head;
         private protected Node<T> _tail;
@@ -38,15 +38,9 @@ namespace GenericUsages.Library.GenericContainer
 
         public Container() { }
 
-        public virtual void Add(T item) 
-        {
+        public virtual void Add(T item) { }
 
-        }
-
-        public virtual void Delete(T data)
-        {
-
-        }
+        public virtual void Delete(T data) { }
 
         public virtual void Clear() 
         {
